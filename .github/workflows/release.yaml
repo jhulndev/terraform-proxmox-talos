@@ -7,8 +7,8 @@ on:
       - main
     paths:
       - ".github/workflows/release.yaml"
-      - "*.tf"
-      - "*.md"
+      - "**/*.tf"
+      - "**/*.md"
 
 jobs:
   release:
